@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="532dp"
+                android:background="@drawable/alam4"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/tableLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="155dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/yeseva_one"
+                            android:text="Pantai"
+                            android:textColor="@color/black"
+                            android:textSize="35dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:drawableTop="@drawable/star_icon"
+                            android:paddingTop="3dp"
+                            android:text=" 4.5"
+                            android:textSize="15dp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/yeseva_one"
+                            android:text="Balekambang"
+                            android:textColor="@color/black"
+                            android:textSize="35dp"
+                            android:paddingBottom="3dp"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:drawableLeft="@drawable/loc_icon_filled"
+                            android:text="Jl. Balekambang, Balaikambang,"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginLeft="12dp"
+                            android:text="HTM Rp15.000"
+                            android:textSize="12dp"
+                            android:padding="3dp"
+                            android:background="@color/gray"
+                            android:textColor="@color/white"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginLeft="25dp"
+                            android:text="Sumberbening, Bantur, Malang"
+                            android:textSize="15dp"/>
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/alegreya_sans_light"
+                    android:text="Pantai lain yang tak boleh kamu lewatkan adalah Pantai Balekambang di Desa Srigonco, Bantur. Banyak orang menyebut Pantai Balekambang sebagai Tanah Lot versi Malang karena di sini terdapat sebuah pura bernama Amerta Jati yang berdiri agak ke tengah laut. Untuk mencapainya, kamu harus lebih dulu melewati jembatan yang tersedia. Sangat mirip dengan Tanah Lot, bukan?
+
+                    Biasanya, kebanyakan orang datang ke Pantai Balekambang menjelang sore untuk menikmatisunset.Pantai ini memang dikenal sebagai salah satu spotsunsetterbaik di Malang. Tak hanya itu, kamu juga bisa menyaksikan aneka terumbu karang eksotis di bibir pantai saat laut sedang surut. Nah, jangan lupa siapkan uang sekitar Rp15.000 sebagai tiket masuk jika tertarik untuk mengunjunginya ya!"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:fontFamily="@font/actor"
+                    android:gravity="center"
+                    android:text="Copyright by Team3"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

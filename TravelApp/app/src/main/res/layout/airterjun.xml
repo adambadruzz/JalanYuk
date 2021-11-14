@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="532dp"
+                android:background="@drawable/alam1"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:fontFamily="@font/yeseva_one"
+                    android:gravity="center"
+                    android:text="Coban Rais"
+                    android:textColor="@color/black"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="387dp"
+                    android:fontFamily="@font/alegreya_sans_light"
+                    android:text="coban rais Sekitar 16 km dari pusat Kota Malang, terdapat sebuah air terjun yang cukup terkenal di Jawa Timur, yakni Coban Rais. Air terjun yang memiliki aliran setinggi kuran coban rais Sekitar 16 km dari pusat Kota Malang, terdapat sebuah air terjun yang cukup terkenal di Jawa Timur, yakni Coban Rais. Air terjun yang memiliki aliran setinggi kurang lebih 20 meter ini dikelilingi oleh perbuktian hijau, sehingga menciptakan pemandangan yang begitu menyejukkan mata. Lokasinya berada di Jalur Lingkar Barat No 8, Dusun Dresel, Batu. Agar lebih mudah kamu bisa menggunakan aplikasi peta padasmartphone.  Asyiknya, di sekitar kawasan Coban Rais kini terdapat beberapa spot menarik untuk berfoto dan menikmati pemandangan sekitar. Di antaranya gardu pandang berbentuk hati, sepeda kayuh di udara, danhammockwarna-warni bisa kamu pilih sebagai spot terbaik. Tertarik untuk mengunjunginya? Jangan lupa siapkan uang Rp10.000 sebagai tiket masuk ke kawasan Coban Rais, ya."
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:fontFamily="@font/actor"
+                    android:gravity="center"
+                    android:text="Copyright by Team3"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

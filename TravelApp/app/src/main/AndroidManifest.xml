@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.travelapp">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TravelApp">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AirTerjun" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".GunungPan" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".Pantai3Warna" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".Balekambang" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".Nirwana" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".Bidadari" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".Kalicero" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".OmahKayu" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".Tubing" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".Alam1" android:parentActivityName=".AirTerjun"></activity>
+        <activity android:name=".Alam2" android:parentActivityName=".GunungPan"></activity>
+        <activity android:name=".Alam3" android:parentActivityName=".Pantai3Warna"></activity>
+        <activity android:name=".Alam4" android:parentActivityName=".Balekambang"></activity>
+        <activity android:name=".Alam5" android:parentActivityName=".Nirwana"></activity>
+        <activity android:name=".Alam6" android:parentActivityName=".Bidadari"></activity>
+        <activity android:name=".Alam7" android:parentActivityName=".Kalicero"></activity>
+        <activity android:name=".Alam8" android:parentActivityName=".OmahKayu"></activity>
+        <activity android:name=".Alam9" android:parentActivityName=".Tubing"></activity>
+        <activity android:name=".MenuFragment" android:parentActivityName=".MainActivity"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

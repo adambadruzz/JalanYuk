@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="532dp"
+                android:background="@drawable/alam6"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TableLayout
+                    android:id="@+id/tableLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/yeseva_one"
+                            android:text="Teluk Bidadari"
+                            android:textColor="@color/black"
+                            android:textSize="35dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:drawableTop="@drawable/star_icon"
+                            android:paddingTop="3dp"
+                            android:text=" 3.6"
+                            android:textSize="15dp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:drawableLeft="@drawable/loc_icon_filled"
+                            android:text="Pantai Mbehi, Ds. Sumberbening,"
+                            android:textSize="16dp"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginLeft="25dp"
+                            android:text="Kec. Bantur, Kab. Malang"
+                            android:textSize="15dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="HTM Rp10.000"
+                            android:textSize="12dp"
+                            android:padding="3dp"
+                            android:background="@color/gray"
+                            android:textColor="@color/white"/>
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="7dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/alegreya_sans_light"
+                    android:text="Saat berada di Pantai Mbehi, sempatkan juga untuk mampir ke Teluk Bidadari yang masih berada di satu area. Untuk mencapai tempat ini, kamu perlu melakukantrekkingdari Pantai Mbehi selama kurang lebih 30–40 menit ke bukit bagian timur. Karena memakan waktu perjalanan yang cukup lama, sebaiknya kamu membawa bekal air mineral agar tetap berstamina sampai tujuan.
+
+Tenang saja, rasa lelah kamu akan langsung terbayar begitu sampai di Teluk Bidadari. Di sini, kamu akan melihat sebuah ceruk yang membentuk kolam alami. Airnya berwarna biru jernih dengan kedalaman yang cukup dangkal, sehingga kamu bisa aman bermain air dan berenang."
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:fontFamily="@font/actor"
+                    android:gravity="center"
+                    android:text="Copyright by Team3"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

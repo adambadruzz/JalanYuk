@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="532dp"
+                android:background="@drawable/alam9"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/tableLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="155dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/yeseva_one"
+                            android:text="Wisata Tubing "
+                            android:textColor="@color/black"
+                            android:textSize="35dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:drawableTop="@drawable/star_icon"
+                            android:paddingTop="3dp"
+                            android:text=" 4.4"
+                            android:textSize="15dp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/yeseva_one"
+                            android:text="Wringinanom"
+                            android:textColor="@color/black"
+                            android:textSize="35dp"
+                            android:paddingBottom="5dp"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:drawableLeft="@drawable/loc_icon_filled"
+                            android:text=" Jl Raya Desa Wringinanom,"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:text="Sesuai Paket"
+                            android:textSize="12dp"
+                            android:padding="3dp"
+                            android:background="@color/gray"
+                            android:textColor="@color/white" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginLeft="25dp"
+                            android:text="Kec. Poncokusumo, Malang"
+                            android:textSize="15dp"/>
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/alegreya_sans_light"
+                    android:text="Jika pendakian gunung masih kurang menantang, cobalah alternatif wisata lain sepertitubingataubody rafting.Sebetulnya,tubingtidak jauh berbeda dariraftingpada umumnya. Hanya saja,tubing menggunakan ban (tub) untuk menopang tubuh kamu seiring derasnya arus sungai. Tak perlu khawatir tenggelam, karena selama beraktivitas kamu akan dilengkapi pelampung serta helm.
+
+Salah satu lokasi terbaik yang bisa kamu kunjungi untuk melakukantubingadalah Wisata Tubing Wringinanom di Desa Wringinanom, Poncokusumo. Menariknya, kamu akan melewati arus Sungai Amprong dan Coban Pelangi yang mengalir dari Gunung Semeru. Untuk biaya sewa ban sendiri, kamu akan dikenakan harga yang bervariasi tergantung jumlah dan jarak yang akan ditempuh."
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:fontFamily="@font/actor"
+                    android:gravity="center"
+                    android:text="Copyright by Team3"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

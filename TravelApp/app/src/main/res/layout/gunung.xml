@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="532dp"
+                android:background="@drawable/alam2"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:fontFamily="@font/yeseva_one"
+                    android:gravity="center"
+                    android:text="Gunung Panderman"
+                    android:textColor="@color/black"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:fontFamily="@font/alegreya_sans_light"
+                    android:text="agi kamu yang ingin berkunjung ke wisata alam Malang sambil menguji adrenalin, Gunung Panderman dapat menjadi destinasi yang tepat. Bahkan bagi pendaki pemula, gunung ini termasuk aman untuk dikunjungi. Tak jarang, Gunung Panderman kerap digunakan sebagai media latihan dan pemanasan oleh para pencinta alam.  Untuk mencapai puncak di ketinggian 2.000 mdpl, kamu hanya perlu waktu seharian saja. Biasanya, waktu pendakian hanya membutuhkan waktu sekitar 2–3 jam. Tidak terlalu lama, bukan? Ingin pengalaman lebih seru? Cobalah untuk memulai pendakian saat dini hari, sehingga kamu akan melihat pesona matahari terbit di puncak Gunung Panderman."
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:fontFamily="@font/actor"
+                    android:gravity="center"
+                    android:text="Copyright by Team3"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

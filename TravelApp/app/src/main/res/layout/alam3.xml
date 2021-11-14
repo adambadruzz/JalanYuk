@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="532dp"
+                android:background="@drawable/alam3"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/tableLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="155dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/yeseva_one"
+                            android:text="Pantai"
+                            android:textColor="@color/black"
+                            android:textSize="35dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="15dp"
+                            android:drawableTop="@drawable/star_icon"
+                            android:paddingTop="3dp"
+                            android:text=" 4.5"
+                            android:textSize="15dp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/yeseva_one"
+                            android:text="Tiga Warna"
+                            android:textColor="@color/black"
+                            android:textSize="35dp"
+                            android:paddingBottom="5dp"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:drawableLeft="@drawable/loc_icon_filled"
+                            android:text="Jl. Sendang Biru, Tambakrejo"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginLeft="25dp"
+                            android:text="HTM Rp10.000"
+                            android:textSize="12dp"
+                            android:layout_marginRight="10dp"
+                            android:padding="3dp"
+                            android:background="@color/gray"
+                            android:textColor="@color/white"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginLeft="25dp"
+                            android:text="Sumbermanjing, Malang"
+                            android:textSize="15dp"/>
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/alegreya_sans_light"
+                    android:text="Sesuai namanya, pantai yang berada di Jalan Sendang Biru, Sumbermanjing ini memang memiliki air laut dengan gradasi tiga warna, yaitu biru, hijau, dan putih. Tentunya hal ini menciptakan pemandangan yang begitu unik dan menggoda. Konon, tiga warna yang dihasilkan berasal dari pembiasan cahaya matahari dan vegetasi plankton yang ada di pantai ini.  Tak hanya itu, Pantai Tiga Warna juga memiliki daya tarik lain berupa hutan bakau yang berada di muara pertemuan antara laut dan sungai. Hutan bakau ini berfungsi untuk mencegah abrasi sekaligus bisa melindungimu dari teriknya sinar matahari jika kamu berteduh di bawahnya. Destinasi yang amat menarik, kan?"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:fontFamily="@font/actor"
+                    android:gravity="center"
+                    android:text="Copyright by Team3"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
